@@ -1,18 +1,23 @@
 #include<stdio.h>
 void main()
 {
-	//Variable Declaration
-	int age;
-	float cgpa;
-	char initial;
+	//variable declaration;
+	int phy, che, mat, eng, tot;
 	
-	//Initialization
-	age=19;
-	cgpa=7.2;
-	initial='M';
+	//initiallisation;
+	phy = 60;
+	che = 50;
+	mat = 70;
+	eng = 40;
+
+	//calculating;
+	tot = phy+che+mat+eng;
+
+	//output;
+	printf("marks in physics: %d\n", phy);
+	printf("marks in chemistry: %d\n", che);
+	printf("marks in maths: %d\n", mat);
+	printf("marks in english: %d\n", eng);
+	printf("total: %d", tot);
 	
-	//Output
-	printf("%d\n",age);
-	printf("%f\n",cgpa);
-	printf("%c",initial);	
-}
+}  
